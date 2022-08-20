@@ -1,0 +1,338 @@
+.nav-link{
+    font-size: 1.2rem;
+}
+
+#header_img{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url(/images/cover/cover-1.png); 
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel{
+    height: 100%;
+}
+
+.carousel_header{
+    font-size: 4rem;
+}
+
+.carousel_text{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.carousel_btn{
+    font-size: 1.2rem;
+    padding: .8rem 1.5rem;
+}
+
+.courses_header{
+    width: 30rem;
+    margin-top: 7rem;
+}
+.courses_text{
+    width: 37rem;
+    font-size: 1.1rem;
+}
+
+.courses_btn{
+    font-size: 1.1rem;
+    padding: 0.6rem 1.5rem;
+}
+
+.courses_btn_div{
+    width: 13rem;
+}
+
+.explore_sec{
+    background-color: #F4FAFD; 
+    border-radius: 5px;
+}
+
+.explore_sec_text{
+    width: 606px;
+    height: 546px;
+}
+
+.explore_sec_text > h1{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.explore_sec_text > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.info_sec > h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.info_sec > span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.read_me{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 13px 33px;
+    border-radius: 5px;
+}
+
+.join_sec{
+    height: 300px; 
+    border-radius: 5px;
+}
+
+.join_sec_text{
+    width: 528px;
+    height: 140px;
+}
+
+.join_sec_text > h1{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;   
+}
+.join_sec_text > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;;  
+    color: #F4F4F4; 
+}
+
+
+.join_sec_col{
+    height: 300px;
+}
+.join_sec_col > button{
+    color: #289BDE;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 13px 33px;
+}
+
+.meet_sec > h1{
+    width: 549px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+}
+.meet_sec > p{
+    width: 549px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+
+
+.accordion{
+    width: 872px;
+}
+
+
+.footer{
+    height: 472px;
+    background-color: black;
+}
+
+.footer_text{
+    width: 321px;
+    height: 212px;
+}
+
+.icon{
+    width: 100%;
+    font-size: 2rem;
+}
+.icon > i{
+    color: white;
+}
+
+.explore_sec_img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.accordion_header{
+    font-weight: 600px;
+}
+.accordion_text{
+    width:606px;
+    color: #777777;
+}
+
+@media screen and (max-width:768px) {
+    .company{
+        display: none;
+    }
+
+    #header_img{
+        height:60vh;
+    }
+
+    .carousel_header{
+        font-size: 2.5rem;
+    }
+    
+    .carousel_text{
+        font-size: .8rem;
+    }
+
+    .accordion{
+        width: 600px;
+    }
+
+    .explore_sec_text{
+        width: 456px;
+        height: 406px;
+    }
+    
+    .explore_sec_text > h1{
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+    
+    .explore_sec_text > p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .info_sec > h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .info_sec > span{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .read_me{
+        font-weight: 600;
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .join_sec{
+        height: 300px; 
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .join_sec_text{
+        width: 528px;
+        height: 140px;
+    }
+    
+    .join_sec_text > h1{
+        font-size: 25px;
+        line-height: 30px;   
+    }
+    .join_sec_text > p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;;  
+        color: #F4F4F4; 
+    }
+    
+    
+    .join_sec_col{
+        height: 70px;
+    }
+}
+
+
+
+@media screen and (max-width:430px) {
+
+
+    .courses_header{
+       width: 20rem; 
+       font-size: 1.2rem;
+    }
+
+    .courses_text{
+        width: 20rem;
+        font-size: .9rem;
+    }
+
+    .join_sec_text{
+        width: 328px;
+        height: 100px;
+    }
+
+    .join_sec_col{
+        height: 150px;
+    }
+
+    .meet_sec > h1{
+        width: 349px;
+        text-align: center;
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .meet_sec > p{
+        width: 349px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    
+    .accordion{
+        width: 372px;
+    }
+
+    .accordion_header{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .accordion_text{
+        text-align: center;
+        width: 300px;
+    }
+    .carousel_header{
+        font-size: 1.4rem;
+    }
+
+
+    .explore_sec_text{
+        width: 456px;
+        height: 456px;
+    }
+    
+    .explore_sec_text > h1{
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+    
+    .explore_sec_text > p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+
+}
